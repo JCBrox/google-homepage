@@ -1,26 +1,130 @@
+.searchbar:hover {
+    box-shadow: #f2f2f2
+}
+a:hover{
+    text-decoration: underline;
+}
+a { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
 nav {
-    Font-size: 10px;
+    height: 60px;
+    Font-size: 14px;
+    Font-family: Roboto,Arial,sans-serif;
     display:flex;
     align-items: center;
-justify-content: flex-end;
+justify-content: space-between;
+height: 3em
+}
+.searchbar {   
+    text-align: center;
+    padding: 1px 10px 1px 10px;
+    width: 580px;
+    height:44px;
+    border-style: solid;
+    border-radius: 24px;
+    border-color:rgba(0,0,0,.10);
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-left {
+    display: flex;
+    flex-direction: row;
+    Justify-content: space-around;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    width: 120px;
+ 
+
+}
+#nav-right {
+    display: flex;
+    flex-direction: row;
+    Justify-content: space-around;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    width: 120px;
+ 
+
+}
+
+#mic {
+    width: 25px;
+    height: 25px;
 }
 body {
     font-size: 14px;
     font-family: Arial, sans-serif
 }
+
+.microphone-icon {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border: none;
+}
+.textinput {
+    width: 480px;
+    height: 100%;
+    border: none;
+    outline: none;
+}
 .main {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 800px;
     text-align: center;
 }
 footer {
+    border-top: #0000001a;
+    border-top-width: 1px;
+    border-top-style: solid;
+    flex-direction: row;
+    Display: flex;
+    align-items: center;
+    justify-content: space-around;
+    Position: fixed;
+    bottom: 0;
     background-color: #f2f2f2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 50px;
 
 }
+#footer-right {
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 200px;
+    display: flex;
+padding: 5px 5px 5px 5px;
+margin: 5px 5px 5px 5px;
+}
+#footer-left {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 350px;
+    display: flex;
+padding: 5px 5px 5px 5px;
+margin: 5px 5px 5px 5px;
+}
 #lgbt {
-font-size: 13px;
+    height: 322px;
+    Width: 400px;
 }
 #logo {
     width: 272px;
